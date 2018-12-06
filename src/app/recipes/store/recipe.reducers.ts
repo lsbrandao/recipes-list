@@ -15,20 +15,28 @@ export interface State {
 const initialState: State = {
     recipes: [
         new Recipe(
-            'Testy Schnitzel',
-            'A super-tasty Schnitzel!',
-            'https://www.dessertfortwo.com/wp-content/uploads/2014/12/Schnitzel-2.jpg',
+            'Pumpkin Cheesecake',
+            'Double Layer Pumpkin Cheesecake',
+            'https://images.media-allrecipes.com/userphotos/720x405/303675.jpg',
             [
-                new Ingredient('Meat', 1),
-                new Ingredient('French Fries', 20)
+                new Ingredient('Pumpkin', 1),
+                new Ingredient('Cheese', 5)
             ]),
         new Recipe(
-            'Big Fat Burguer',
-            'What else do I need to say?',
+            'Big Burguer',
+            'Amazing hamburguer',
             'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps28800_UG143377D12_18_1b_RMS-696x696.jpg',
             [
                 new Ingredient('Buns', 2),
                 new Ingredient('Meat', 1)
+            ]),
+        new Recipe(
+            'Lasagna',
+            'World\'s Best Lasagna',
+            'https://images.media-allrecipes.com/userphotos/720x405/3359675.jpg',
+            [
+                new Ingredient('Cheese', 10),
+                new Ingredient('Pasta', 20)
             ])
       ]
 };
