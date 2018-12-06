@@ -1,0 +1,12 @@
+#wraper {
+    display: flex;
+}
+
+#bg {
+    margin-top: 30px;
+    width: 100%;
+}
+
+h1 {
+    margin: 30px auto;
+}
